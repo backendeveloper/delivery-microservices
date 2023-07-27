@@ -10,7 +10,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
@@ -72,8 +71,6 @@
       <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application-docker.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo-data/collection-7-2702580636823976216.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo-data/collection-9-2702580636823976216.wt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mongo-data/diagnostic.data/metrics.2023-07-27T13-58-07Z-00000" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mongo-data/diagnostic.data/metrics.2023-07-27T14-19-38Z-00000" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mongo-data/diagnostic.data/metrics.2023-07-27T14-44-27Z-00000" afterDir="false" />
@@ -81,9 +78,6 @@
       <change afterPath="$PROJECT_DIR$/mongo-data/diagnostic.data/metrics.2023-07-27T15-27-32Z-00000" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mongo-data/diagnostic.data/metrics.2023-07-27T15-53-05Z-00000" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mongo-data/diagnostic.data/metrics.2023-07-27T16-15-39Z-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo-data/diagnostic.data/metrics.interim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo-data/index-10-2702580636823976216.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo-data/index-8-2702580636823976216.wt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mongo-data/journal/WiredTigerPreplog.0000000001" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mongo-data/journal/WiredTigerPreplog.0000000002" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/auto.cnf" afterDir="false" />
@@ -91,10 +85,7 @@
       <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/ca.pem" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/client-cert.pem" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/client-key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/ib_buffer_pool" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/ib_logfile0" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/ib_logfile1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/ibtmp1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/keycloak/db.opt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/mysql.sock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/mysql/columns_priv.MYD" afterDir="false" />
@@ -373,6 +364,18 @@
       <change afterPath="$PROJECT_DIR$/mysql_keycloak_data/sys/x@0024waits_global_by_latency.frm" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/realms/realm-export.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo-data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo-data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo-data/diagnostic.data/metrics.2023-07-27T17-01-08Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/diagnostic.data/metrics.2023-07-27T17-01-08Z-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo-data/diagnostic.data/metrics.interim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo-data/index-6-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/index-6-2702580636823976216.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo-data/journal/WiredTigerLog.0000000009" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/journal/WiredTigerLog.0000000009" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo-data/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/mongod.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql_keycloak_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_keycloak_data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql_keycloak_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_keycloak_data/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql_keycloak_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_keycloak_data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql_keycloak_data/ibtmp1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,7 +423,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "last_opened_file_path": "/Users/backendeveloper/IdeaProjects/delivery-microservices/realms",
     "node.js.detected.package.eslint": "true",
@@ -550,7 +553,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690300276161</updated>
-      <workItem from="1690300277499" duration="57306000" />
+      <workItem from="1690300277499" duration="58173000" />
     </task>
     <servers />
   </component>
