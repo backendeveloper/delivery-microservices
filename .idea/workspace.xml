@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efed4c60-c02a-41df-8eff-b95b36c3f667" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/postman/delivery-microservices.postman_collection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grafana_Dashboard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/alerting/1/__default__.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafana/grafana.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus/prometheus.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company-service/src/main/java/com/commencis/companyservice/CompanyServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/company-service/src/main/java/com/commencis/companyservice/CompanyServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company-service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/company-service/src/main/resources/application-docker.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/company-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/commencis/customerservice/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/commencis/customerservice/CustomerServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application-docker.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delivery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/com/commencis/deliveryservice/DeliveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/commencis/deliveryservice/DeliveryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/com/commencis/deliveryservice/repository/ResourceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/commencis/deliveryservice/repository/ResourceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/java/com/commencis/deliveryservice/repository/ResourceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/commencis/deliveryservice/repository/ResourceRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-service/src/main/resources/application-docker.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delivery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongo-data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongo-data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/WiredTiger.wt" afterDir="false" />
@@ -36,7 +32,6 @@
       <change beforePath="$PROJECT_DIR$/mongo-data/index-5-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/index-5-2702580636823976216.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongo-data/index-6-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/index-6-2702580636823976216.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongo-data/index-8-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/index-8-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/journal/WiredTigerLog.0000000009" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mongo-data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/sizeStorer.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql_keycloak_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_keycloak_data/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql_keycloak_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_keycloak_data/ib_logfile0" afterDir="false" />
@@ -57,6 +52,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -224,7 +220,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690300276161</updated>
       <workItem from="1690300277499" duration="58630000" />
-      <workItem from="1690497910520" duration="5163000" />
+      <workItem from="1690497910520" duration="7134000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -234,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690483552310</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1690505321430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690505321430</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

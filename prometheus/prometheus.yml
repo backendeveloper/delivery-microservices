@@ -1,0 +1,23 @@
+global:
+  scrape_interval:     10s
+  evaluation_interval: 10s
+
+scrape_configs:
+  - job_name: 'company_service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['company-service:8080']
+        labels:
+          application: 'Company Service Application'
+  - job_name: 'customer_service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['customer-service:8080']
+        labels:
+          application: 'Customer Service Application'
+  - job_name: 'delivery_service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['delivery-service:8080']
+        labels:
+          application: 'Delivery Service Application'
