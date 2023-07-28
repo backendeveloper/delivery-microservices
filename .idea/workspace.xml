@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efed4c60-c02a-41df-8eff-b95b36c3f667" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/Grafana_Dashboard.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/alerting/1/__default__.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafana/grafana.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/prometheus.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/company-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/_mdb_catalog.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/collection-0-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/collection-0-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/collection-2-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/collection-2-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/collection-4-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/collection-4-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/collection-7-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/collection-7-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/collection-9-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/collection-9-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/index-1-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/index-1-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/index-10-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/index-10-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/index-3-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/index-3-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/index-5-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/index-5-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/index-6-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/index-6-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/index-8-2702580636823976216.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/index-8-2702580636823976216.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo-data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-data/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_keycloak_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_keycloak_data/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_keycloak_data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_keycloak_data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_keycloak_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_keycloak_data/ibdata1" afterDir="false" />
-    </list>
+    <list default="true" id="efed4c60-c02a-41df-8eff-b95b36c3f667" name="Changes" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +97,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="JUnit.CompanyServiceApplicationTests">
     <configuration name="CompanyServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="company-service" />
       <extension name="coverage">
@@ -204,10 +172,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompanyServiceApplicationTests" />
         <item itemvalue="Spring Boot.DeliveryServiceApplication" />
         <item itemvalue="Spring Boot.CustomerServiceApplication" />
         <item itemvalue="Spring Boot.CompanyServiceApplication" />
-        <item itemvalue="JUnit.CompanyServiceApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690300276161</updated>
       <workItem from="1690300277499" duration="58630000" />
-      <workItem from="1690497910520" duration="7134000" />
+      <workItem from="1690497910520" duration="7448000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -238,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690505321430</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1690507577686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690507577686</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
