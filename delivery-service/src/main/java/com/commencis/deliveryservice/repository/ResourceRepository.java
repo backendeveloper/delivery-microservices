@@ -11,6 +11,7 @@ import java.util.List;
 
 @NoRepositoryBean
 public interface ResourceRepository<T, I extends Serializable> extends MongoRepository<T, I> {
+
     Page<T> findAll(Query query, Pageable pageable);
 
     List<T> findAll(Query query);

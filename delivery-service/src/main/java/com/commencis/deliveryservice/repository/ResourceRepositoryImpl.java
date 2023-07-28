@@ -1,6 +1,5 @@
 package com.commencis.deliveryservice.repository;
 
-import com.commencis.deliveryservice.repository.ResourceRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
