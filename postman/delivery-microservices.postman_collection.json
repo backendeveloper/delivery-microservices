@@ -12,55 +12,13 @@
 				{
 					"name": "GetCompanies",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "clientSecret",
-									"value": "E0sXY1dfxoqMkwsd9nQy6SDhtMc7ee5t",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8080/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8181/api/companies",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/companies",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8181",
 							"path": [
 								"api",
 								"companies"
@@ -72,59 +30,17 @@
 				{
 					"name": "GetCompanyById",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/companies/64c052ffb9534c096678fb08",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/companies/600f4997e3a11bc10091f786",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"companies",
-								"64c052ffb9534c096678fb08"
+								"600f4997e3a11bc10091f786"
 							]
 						}
 					},
@@ -133,55 +49,13 @@
 				{
 					"name": "DeleteCompanyById",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/companies/64c04c9fc463fd2c9888b42c",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/companies/64c04c9fc463fd2c9888b42c",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"companies",
@@ -194,46 +68,6 @@
 				{
 					"name": "UpdateCompanyById",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "PUT",
 						"header": [],
 						"body": {
@@ -246,12 +80,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/companies/64c052ffb9534c096678fb08",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/companies/64c052ffb9534c096678fb08",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"companies",
@@ -264,46 +96,6 @@
 				{
 					"name": "CreateCompany",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -316,12 +108,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/companies",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/companies",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"companies"
@@ -338,55 +128,13 @@
 				{
 					"name": "GetCustomers",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "accessTokenUrl",
-									"value": "http://keycloak:8080/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "E0sXY1dfxoqMkwsd9nQy6SDhtMc7ee5t",
-									"type": "string"
-								},
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8181/api/customers",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/customers",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8181",
 							"path": [
 								"api",
 								"customers"
@@ -398,46 +146,6 @@
 				{
 					"name": "CreateCustomer",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -450,12 +158,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/customers",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/customers",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"customers"
@@ -467,55 +173,13 @@
 				{
 					"name": "DeleteCustomerById",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/customers/64c05ea828e709552ad4fba3",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/customers/64c05ea828e709552ad4fba3",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"customers",
@@ -528,55 +192,13 @@
 				{
 					"name": "GetCustomerById",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/customers/64c05e1528e709552ad4fba2",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/customers/64c05e1528e709552ad4fba2",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"customers",
@@ -589,46 +211,6 @@
 				{
 					"name": "UpdateCustomerById",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "PUT",
 						"header": [],
 						"body": {
@@ -641,12 +223,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/customers/64c05e1528e709552ad4fba2",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/customers/64c05e1528e709552ad4fba2",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"customers",
@@ -664,55 +244,13 @@
 				{
 					"name": "GetDeliveries",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/deliveries",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/deliveries",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"deliveries"
@@ -722,57 +260,15 @@
 					"response": []
 				},
 				{
-					"name": "GetDeliveries Copy",
+					"name": "GetDeliveriesWithFilter",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/deliveries?page=1&size=3&filterOr=trackingNumber%7Ceq%7C1111113-323&orders=trackingNumber%7CASC",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/deliveries?page=1&size=3&filterOr=trackingNumber%7Ceq%7C1111113-323&orders=trackingNumber%7CASC ",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"deliveries"
@@ -797,7 +293,7 @@
 								},
 								{
 									"key": "orders",
-									"value": "trackingNumber%7CASC"
+									"value": "trackingNumber%7CASC "
 								}
 							]
 						}
@@ -807,46 +303,6 @@
 				{
 					"name": "CreateDelivery",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -859,12 +315,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/deliveries",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/deliveries",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"deliveries"
@@ -876,55 +330,13 @@
 				{
 					"name": "DeleteDeliveryById",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/deliveries/64c069dcd91de644eff1ef68",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/deliveries/64c069dcd91de644eff1ef68",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"deliveries",
@@ -937,55 +349,13 @@
 				{
 					"name": "GetDeliveryById",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/deliveries/64c06b3ff894743b80d61c6d",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/deliveries/64c06b3ff894743b80d61c6d",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"deliveries",
@@ -998,46 +368,6 @@
 				{
 					"name": "UpdateDeliveryById",
 					"request": {
-						"auth": {
-							"type": "oauth2",
-							"oauth2": [
-								{
-									"key": "scope",
-									"value": "openid offline_access",
-									"type": "string"
-								},
-								{
-									"key": "clientSecret",
-									"value": "pJUhgiidBobtw5fTVyJENwwJcIWVaZSa",
-									"type": "string"
-								},
-								{
-									"key": "clientId",
-									"value": "delivery-microservices-client",
-									"type": "string"
-								},
-								{
-									"key": "accessTokenUrl",
-									"value": "http://localhost:8181/realms/delivery-microservices-realm/protocol/openid-connect/token",
-									"type": "string"
-								},
-								{
-									"key": "tokenName",
-									"value": "token",
-									"type": "string"
-								},
-								{
-									"key": "grant_type",
-									"value": "client_credentials",
-									"type": "string"
-								},
-								{
-									"key": "addTokenTo",
-									"value": "header",
-									"type": "string"
-								}
-							]
-						},
 						"method": "PUT",
 						"header": [],
 						"body": {
@@ -1050,12 +380,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/deliveries/64c066c97e05a5717311e5c8",
-							"protocol": "http",
+							"raw": "{{API_ENDPOINT}}/api/deliveries/64c066c97e05a5717311e5c8",
 							"host": [
-								"localhost"
+								"{{API_ENDPOINT}}"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"deliveries",
@@ -1066,6 +394,91 @@
 					"response": []
 				}
 			]
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "clientSecret",
+				"value": "THJnXY5Ff28LyVbqFLxOMl4y93QCtoLx",
+				"type": "string"
+			},
+			{
+				"key": "refreshRequestParams",
+				"value": [],
+				"type": "any"
+			},
+			{
+				"key": "tokenRequestParams",
+				"value": [],
+				"type": "any"
+			},
+			{
+				"key": "authRequestParams",
+				"value": [],
+				"type": "any"
+			},
+			{
+				"key": "tokenName",
+				"value": "token",
+				"type": "string"
+			},
+			{
+				"key": "challengeAlgorithm",
+				"value": "S256",
+				"type": "string"
+			},
+			{
+				"key": "scope",
+				"value": "openid offline_access",
+				"type": "string"
+			},
+			{
+				"key": "grant_type",
+				"value": "client_credentials",
+				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "delivery-microservices-client",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "client_authentication",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "http://keycloak:8080/realms/delivery-microservices-realm/protocol/openid-connect/token",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
 		}
 	]
 }
